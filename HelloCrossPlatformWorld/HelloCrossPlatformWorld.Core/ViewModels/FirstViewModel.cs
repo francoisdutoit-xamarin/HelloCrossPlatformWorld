@@ -2,10 +2,10 @@ using MvvmCross.Core.ViewModels;
 
 namespace HelloCrossPlatformWorld.Core.ViewModels
 {
-    public class FirstViewModel
-        : MvxViewModel
+    public class FirstViewModel: MvxViewModel
     {
-        string hello = "Hello MvvmCross";
+        string hello = "Hello MvvmCross!!!";
+
         public string Hello
         {
             get { return hello; }
